@@ -8,7 +8,7 @@ Usage is quite simple and straight-foward, you simply create an object of `Syste
 
 # Dependencies
 
-The code within LogMessage, depends on the logging library easylogging++, which is a simple logging library that is within one header file. If you do not wish to use this library, or integrate your own logging platform, then you can do so quite easily by altering the code within `LogMessage()` within the `SystemInteface`.
+The code within LogMessage, depends on the logging library [easylogging++]()https://github.com/easylogging/easyloggingpp, which is a simple logging library that is within one header file. If you do not wish to use this library, or integrate your own logging platform, then you can do so quite easily by altering the code within `LogMessage()` within the `SystemInteface`.
 
 # License
 Copyright (C) 2013 Miguel Martin (miguel.martin7.5@hotmail.com)
