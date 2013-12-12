@@ -1,6 +1,6 @@
 # SDL2-libRocket-SystemInterface
 
-System integration with [libRocket](https://github.com/lloydw/libRocket) via [Magnum](https://github.com/mosra/magnum).
+System integration with [libRocket](https://github.com/lloydw/libRocket) via [SDL 2](http://www.libsdl.org/).
 
 # Usage
 
