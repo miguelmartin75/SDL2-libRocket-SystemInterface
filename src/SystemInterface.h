@@ -32,6 +32,8 @@ public:
     
     int getKeyModifiers() const;
     Rocket::Core::Input::KeyIdentifier translateKey(const SDL_Keycode&) const;
+    
+    int translateButton(int button) const;
 };
 
 #endif // __SYSTEMINTERFACE_H__

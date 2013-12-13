@@ -347,6 +347,23 @@ Rocket::Core::Input::KeyIdentifier SystemInterface::translateKey(const SDL_Keyco
 	return Rocket::Core::Input::KI_UNKNOWN;
 }
 
+int SystemInterface::translateButton(int button) const
+{
+    int translatedButton;
+    switch (button) {
+        case SDL_BUTTON_LEFT:
+            translatedButton = 0; // left == 0 for libRocket
+            break;
+        case SDL_BUTTON_RIGHT:
+            translatedButton = 1; // right == 1 for libRocket
+            break;
+        default:
+            translatedButton = 2; // can techinically be anything
+            break;
+    }
+    return translatedButton;
+}
+
 bool SystemInterface::LogMessage(Rocket::Core::Log::Type type, const Rocket::Core::String& message)
 {
     // note:
